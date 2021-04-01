@@ -12,11 +12,11 @@
   text-align: right;
 }
 
-.header-img {
+.header__img {
   width: 100%;
 }
 
-.more-info {
+.header__info-link {
   font-family: fantasy, cursive;
 }
 
@@ -26,7 +26,7 @@
   }
 }
 
-.centered-main-content {
+.main-content {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -52,7 +52,7 @@
   list-style: none;
 }
 
-/* ВНИМАНИЕ - исключение намеренный сброс дефолтных стилей (Правило 3.4): */
+/* исключение - намеренный сброс дефолтных стилей (Правило 3.4): */
 input,
 button {
   outline: none;
@@ -143,7 +143,7 @@ button {
 }
 
 /* Completed */
-#completed-tasks .label {
+.completed-block__completed-tasks .label {
   text-decoration: line-through;
   color: #888;
 }
